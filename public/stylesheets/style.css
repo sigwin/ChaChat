@@ -1,0 +1,75 @@
+body{ 
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  margin:0px;
+  padding:0px;
+  background:url('/images/bg.gif') repeat;
+}
+
+h1#title{ 
+  margin-left : 30px;
+}
+
+table#input{ 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top : 50px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+input.c1{ 
+  margin-left:10px;
+  padding: 1px 3px;
+  font-size:12px;
+  border: 1px solid #666666;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+div#users{
+  width : 100px;
+  margin-left:auto;
+}
+
+div#comment{
+  margin-right: auto;
+  margin-left: auto;
+  width:1000px;
+  font-size:95%;
+  word-break: break-all;
+}
+
+table#mainTable{
+  margin-top : 50px;
+  border-top : solid 1px #000000;
+}
+
+table#mainComment{ 
+  margin-bottom : 50px;
+  border-left : solid 1px #000000;
+}
+
+table.mainStyle{ 
+  width:100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  border-left : solid 1px #000000;
+}
+
+td.name{ 
+  width:150px;
+}
+
+td.comment{ 
+
+}
+
+td.time{ 
+  width:170px;
+}
+
+table#mainTable td,table#mainComment td{ 
+  border-right : solid 1px #000000;
+  border-bottom : solid 1px #000000;
+}
+

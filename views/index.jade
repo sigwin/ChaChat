@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1#title #{title}
+  div#users
+  table#input
+    tr
+      td User:
+      td Comment:
+      td  
+    tr
+      td
+        input.c1(type='text', size='16', name='user')
+      td
+        input.c1(type='text', size='64', name='comment')
+      td
+        button#submit send
+          
+  div#comment
+    table#mainTable.mainStyle
+      tr
+        td.name 
+          b Name
+        td.comment 
+          b Comment
+        td.time 
+          b Time
+    table#mainComment.mainStyle
+      tbody
