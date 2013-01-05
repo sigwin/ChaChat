@@ -30,7 +30,6 @@ app.configure('development', function(){
 });
 
 
-//エイリアス
 app.get('/', routes.index);
 app.post('/', routes.post);
 

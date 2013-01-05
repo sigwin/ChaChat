@@ -41,7 +41,7 @@ ssqlite3.insert = function(data,callback){
 		obj.comment=row.comment;
 		obj.ts=row.ts;
 	},function(){
-		me._close();
+		//me._close();
 		callback(obj);
 	});
 };
@@ -57,7 +57,7 @@ ssqlite3.load = function(callback){
 		obj.ts=row.ts;
 		msg[msg.length]=obj;
 	},function(){
-		me._close();
+		//me._close();
 		callback(msg);
 	});
 };
@@ -70,7 +70,7 @@ ssqlite3.count = function(){
 	db.each("SELECT count(id) FROM message;",function(err,row){
 		count = row['count(id)'];
 	},function(){
-		me._close();
+		//me._close();
 		return count;
 	});
 };
